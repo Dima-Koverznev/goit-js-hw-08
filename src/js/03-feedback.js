@@ -28,7 +28,7 @@ function getMessageToLocalStorage() {
 
 function handleSubmitForm(e) {
   e.preventDefault();
-
+  
   localStorage.removeItem(FORM_MESSAGE_KEY);
   form.reset();
 }
